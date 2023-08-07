@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
     const navItem=<>
      <li><Link to='/'>Home</Link></li>
-     <li><Link to='/'>About us</Link></li>
+     <li><Link to='/about'>About us</Link></li>
      <li><Link to='/'>View Hospitals</Link></li>
-     <li><Link to='/'>Contact us</Link></li>
+     <li><Link to='/contact'>Contact us</Link></li>
     </>
     return (
         <div className="navbar bg-white">
