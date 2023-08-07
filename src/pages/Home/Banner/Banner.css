@@ -26,3 +26,12 @@
         background-color: #00A6FF17;
     }
 }
+
+.call{
+    border-radius: 14px;
+background: rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(12.5px);
+}
+.call-icon{
+    border-radius: 0 14px 14px 0;
+}
